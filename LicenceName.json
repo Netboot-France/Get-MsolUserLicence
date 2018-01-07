@@ -1,0 +1,15 @@
+{
+    "POWER_BI_STANDARD"        :"Power-BI_Standard",
+    "MCOMEETADV"               :"PSTN_conferencing",
+    "EMS"                      :"Enterprise_Mobility_Suite",
+    "DESKLESSPACK"             :"Ofice_365_(Plan_K1)",
+    "DESKLESSWOFFPACK"         :"Office_365_(Plan_K2)",
+    "LITEPACK"                 :"Office_365_(Plan_P1)",
+    "EXCHANGESTANDARD"         :"Office_365_Exchange_Online_Only",
+    "STANDARDPACK"             :"Office_365_(Plan_E1)",
+    "STANDARDWOFFPACK"         :"Office_365_(Plan_E2)",
+    "ENTERPRISEPACK"           :"Office_365_(Plan_E3)",
+    "ENTERPRISEPACKLRG"        :"Office_365_(Plan_E3)",
+    "ENTERPRISEWITHSCAL"       :"Office_365_(Plan_E4)",
+    "O365_BUSINESS_ESSENTIALS" :"Office_365_Business_Essentials"
+}
