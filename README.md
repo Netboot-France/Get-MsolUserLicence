@@ -1,3 +1,7 @@
+# Get-MsolUserLicence
+
+![Demo](Resource/Demo.gif)
+
 ## SYNOPSIS  
 This script provides a report that shows license allocation in Office 365.
 
@@ -5,8 +9,8 @@ This script provides a report that shows license allocation in Office 365.
   - **File Name**   : Get-MsolUserLicences.ps1
   - **Author**      : Thomas ILLIET, contact@thomas-illiet.fr
   - **Date**        : 2017-11-03
-  - **Last Update** : 2017-12-12
-  - **Version**     : 1.0.2
+  - **Last Update** : 2018-01-08
+  - **Version**     : 1.0.5
 
 ## Install
 ```

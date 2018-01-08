@@ -1,5 +1,5 @@
 <#PSScriptInfo
-    .VERSION 1.0.4
+    .VERSION 1.0.5
     .GUID c9c0f8f8-d4ae-45a0-803c-3a6e1cb5c834
     .AUTHOR thomas.illiet
     .COMPANYNAME netboot.fr
@@ -7,8 +7,8 @@
     .TAGS Office365
     .LICENSEURI https://raw.githubusercontent.com/Netboot-France/Get-MsolUserLicence/master/LICENSE
     .PROJECTURI https://github.com/Netboot-France/Get-MsolUserLicence
-    .ICONURI https://raw.githubusercontent.com/Netboot-France/Get-MsolUserLicence/master/ICON.png
-    .EXTERNALMODULEDEPENDENCIES Msol
+    .ICONURI https://raw.githubusercontent.com/Netboot-France/Get-MsolUserLicence/master/Resource/Icon.png
+    .EXTERNALMODULEDEPENDENCIES
     .REQUIREDSCRIPTS 
     .EXTERNALSCRIPTDEPENDENCIES 
     .RELEASENOTES
@@ -22,8 +22,8 @@
         File Name   : Get-MsolUserLicence.ps1
         Author      : Thomas ILLIET, contact@thomas-illiet.fr
         Date        : 2017-11-03
-        Last Update : 2018-01-07
-        Version     : 1.0.4
+        Last Update : 2018-01-08
+        Version     : 1.0.5
 
     .PARAMETER UserprincipalName
         Speicifies the user ID of the user to retrieve.
@@ -70,7 +70,9 @@ Begin {
     function Get-LicenseName
     {
         Param(
+            [Parameter(Mandatory=$True)]
             [String]$Sku,
+            [Parameter(Mandatory=$False)]
             [String]$LicenceFile
         )
         # Check Licence File is defined
