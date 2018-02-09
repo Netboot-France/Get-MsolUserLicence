@@ -1,0 +1,16 @@
+# that gives us dotnet cli installed on the box
+dist: trusty
+sudo: required
+
+mono: none
+
+# instruction from https://github.com/PowerShell/PowerShell/blob/master/docs/installation/linux.md#ubuntu-1404
+install:
+  - curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  - curl https://packages.microsoft.com/config/ubuntu/14.04/prod.list | sudo tee /etc/apt/sources.list.d/microsoft.list
+  - sudo apt-get update
+  - sudo apt-get install -y powershell
+
+script:
+  - sudo pwsh -C 'Install-Module -Name PowerShellGet -Force'
+  - pwsh -C "Publish-Script -path Get-MsolUserLicence.ps1 -NuGetApiKey $ApiKey"

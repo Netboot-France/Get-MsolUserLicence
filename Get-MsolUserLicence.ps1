@@ -1,5 +1,5 @@
 <#PSScriptInfo
-    .VERSION 1.0.5
+    .VERSION 1.0.6
     .GUID c9c0f8f8-d4ae-45a0-803c-3a6e1cb5c834
     .AUTHOR thomas.illiet
     .COMPANYNAME netboot.fr
@@ -23,7 +23,7 @@
         Author      : Thomas ILLIET, contact@thomas-illiet.fr
         Date        : 2017-11-03
         Last Update : 2018-01-08
-        Version     : 1.0.5
+        Version     : 1.0.6
 
     .PARAMETER UserprincipalName
         Speicifies the user ID of the user to retrieve.
