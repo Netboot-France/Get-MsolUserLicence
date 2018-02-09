@@ -1,4 +1,4 @@
-# that gives us dotnet cli installed on the box
+dotnet: 2.0.2
 dist: trusty
 sudo: required
 

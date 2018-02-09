@@ -3,11 +3,11 @@
     .GUID c9c0f8f8-d4ae-45a0-803c-3a6e1cb5c834
     .AUTHOR thomas.illiet
     .COMPANYNAME netboot.fr
-    .COPYRIGHT (c) 2017 Netboot. All rights reserved.
+    .COPYRIGHT (c) 2017 Thomas Illiet. All rights reserved.
     .TAGS Office365
-    .LICENSEURI https://raw.githubusercontent.com/Netboot-France/Get-MsolUserLicence/master/LICENSE
-    .PROJECTURI https://github.com/Netboot-France/Get-MsolUserLicence
-    .ICONURI https://raw.githubusercontent.com/Netboot-France/Get-MsolUserLicence/master/Resource/Icon.png
+    .LICENSEURI https://raw.githubusercontent.com/thomas-illiet/Get-MsolUserLicence/master/LICENSE
+    .PROJECTURI https://github.com/thomas-illiet/Get-MsolUserLicence
+    .ICONURI https://raw.githubusercontent.com/thomas-illiet/Get-MsolUserLicence/master/Resource/Icon.png
     .EXTERNALMODULEDEPENDENCIES
     .REQUIREDSCRIPTS 
     .EXTERNALSCRIPTDEPENDENCIES 
